@@ -32,11 +32,11 @@ plugins {
 description = "Cache"
 
 dependencies {
-    annotationProcessor(group = "org.projectlombok", name = "lombok", version = "1.18.12")
+    annotationProcessor(group = "org.projectlombok", name = "lombok", version = "1.18.14")
 
     api(project(":http-api"))
 
-    compileOnly(group = "org.projectlombok", name = "lombok", version = "1.18.12")
+    compileOnly(group = "org.projectlombok", name = "lombok", version = "1.18.14")
 
     implementation(group = "com.google.code.gson", name = "gson", version = "2.8.6")
     implementation(group = "com.google.guava", name = "guava", version = "29.0-jre")
@@ -47,9 +47,9 @@ dependencies {
     implementation(group = "org.apache.commons", name = "commons-compress", version = "1.20")
     implementation(group = "org.slf4j", name = "slf4j-api", version = "1.7.30")
 
-    testAnnotationProcessor(group = "org.projectlombok", name = "lombok", version = "1.18.12")
+    testAnnotationProcessor(group = "org.projectlombok", name = "lombok", version = "1.18.14")
 
-    testCompileOnly(group = "org.projectlombok", name = "lombok", version = "1.18.12")
+    testCompileOnly(group = "org.projectlombok", name = "lombok", version = "1.18.14")
 
     testImplementation(group = "junit", name = "junit", version = "4.13")
     testImplementation(group = "net.runelite.rs", name = "cache", version = "${ProjectVersions.cacheversion}")

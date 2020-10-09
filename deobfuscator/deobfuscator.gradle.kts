@@ -35,7 +35,7 @@ dependencies {
     deobjars(group = "net.runelite.rs", name = "vanilla", version = ProjectVersions.rsversion.toString())
     deobjars(project(":runescape-client"))
 
-    annotationProcessor(group = "org.projectlombok", name = "lombok", version = "1.18.12")
+    annotationProcessor(group = "org.projectlombok", name = "lombok", version = "1.18.14")
 
     implementation(group = "org.jetbrains", name = "annotations", version = "20.1.0")
     implementation(group = "org.ow2.asm", name = "asm", version = "9.0")
